@@ -1,0 +1,65 @@
+
+POST /project/project_info/pro_example1
+{
+    "project_name": "pro_example1",
+	"project_maintatiner": "user_example1",
+	"project_discription": "pro_disc1",
+	"create_date": "date",
+    "project_name_suggest": {
+      "input": [
+         "pro_example1"
+      ]
+    }    
+}
+
+POST /project/project_info/pintos
+{
+    "project_name": "pintos",
+    "project_maintatiner": "user_example1",
+	"project_discription": "pro_disc1",
+	"create_date": "date",
+    "project_name_suggest": {
+      "input": [
+         "pintos"
+      ]
+    }    
+}
+
+POST /project/project_info/git_server
+{
+    "project_name": "git_server",
+    "project_maintatiner": "user_example1",
+	"project_discription": "pro_disc1",
+	"create_date": "date",
+    "project_name_suggest": {
+      "input": [
+         "git_server"
+      ]
+    }    
+}
+
+POST /project/project_info/codemellow
+{
+    "project_name": "codemellow",
+    "project_maintatiner": "user_example1",
+    "project_discription": "pro_disc1",
+	"create_date": "date",
+    "project_name_suggest": {
+      "input": [
+         "codemellow"
+      ]
+    }    
+}
+
+POST /project/project_info/goorm
+{
+    "project_name": "goorm",
+    "project_maintatiner": "user_example1",
+    "project_discription": "pro_disc1",
+    "create_date": "date",
+    "project_name_suggest": {
+      "input": [
+         "goorm"
+      ]
+    }    
+}

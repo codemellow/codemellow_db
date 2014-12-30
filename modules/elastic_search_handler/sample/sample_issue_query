@@ -1,0 +1,11 @@
+curl -XPOST 'http://localhost:9200/project/issues/ccooccoo' -d '{
+	"project_name":"ccooccoo",
+	"project_language":"java",
+	"project_contributors":["park","kim"],
+	"project_maintainer":"park",
+	"file_name":"b.js",
+	"file_path":"ccooccoo/src/b.js",
+	"issues":"int main(void){ return 0; }"
+}'
+
+curl -X DELETE 'http://localhost:9200/project/'

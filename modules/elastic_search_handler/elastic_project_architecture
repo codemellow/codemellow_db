@@ -1,0 +1,64 @@
+DELETE /repository/
+DELETE /test_index/
+
+POST /repository/
+{
+  "mappings":{
+    "cm_repository": {
+               "properties": {
+                  "repository_id": {
+                        "type": "string"
+                     },
+                     "repository_name": {
+                        "type": "string"
+                     },
+                     "project_name": {
+                        "type": "string"
+                     },
+                     "repository_description": {
+                        "type": "string"
+                     }, 
+                     "create_date": {
+                        "type": "string"
+                     },
+                     "last_commit_date": {
+                        "type": "string"
+                     },
+                     "commit_count": {
+                        "type": "integer"
+                     },
+                     "sell_count": {
+                        "type": "integer"
+                     },
+                     "sell_price": {
+                        "type": "integer"
+                     },
+                     "view_count": {
+                        "type": "integer"
+                     },
+                     "release_count": {
+                        "type": "integer"
+                     },
+                     "contributor_count": {
+                        "type": "integer"
+                     },
+                     "review_count": {
+                        "type": "integer"
+                     },
+                     "review_point": {
+                        "type": "double"
+                     },
+                     "repository_like_count": {
+                        "type": "integer"
+                     },
+                     "project_name_suggest": {
+                        "type": "completion",
+                        "index_analyzer": "simple",
+                        "search_analyzer": "simple",
+                        "payloads": false
+                     }
+               }
+    }
+}
+  
+}

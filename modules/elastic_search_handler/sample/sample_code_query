@@ -1,0 +1,12 @@
+
+curl -XPOST 'http://localhost:9200/project/code/ccooccoo/src/b.js' -d '{
+
+	"project_name": project_name, /* this can be used to give project info, we don;t have to store all info search by project_name and maintainer and then show it*/
+	"project_maintatiner": username,
+
+	"create_date : "dummy",
+	"code: 'Updated',
+	"update_author": "dummy",
+	"update_date": "dummy"
+}'
+
